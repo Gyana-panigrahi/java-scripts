@@ -15,7 +15,10 @@ let name="gyana";
 let isvalid=false;
 let x;
 let num=null;
-let id=Symbol("456");
+const id=Symbol("456");
+const anotherId=Symbol("456");
+console.log(id === anotherId);
+ 
 console.log(number);
 console.log(typeof number);
 console.log(typeof n);
@@ -26,10 +29,22 @@ console.log(typeof x);
 console.log(typeof num);
 console.log(typeof id);
 
-//2.Non-primitive Datatypes
-//1.object
+//2.Non-primitive /Reference Datatypes
+//1.object=>key value pair
+let user={
+    name:"Gyana",
+    age:24
+};
+
 //2.Array
+let nums=[10,20,30,40,50];
+
 //3.Function
+const myFunction=function(){
+    console.log("Hello World");
+}
+console.log(typeof(null));//object
+console.log(typeof(undefined));//undefined
 
 
 
