@@ -106,3 +106,32 @@ console.log(typeof(num5));//string
 console.log(typeof(stringNumbers));//number
 console.log(stringNumbers);//NaN
 
+
+//*********************OPERATIONS****************************************
+console.log(2+2);
+console.log(2-2);
+console.log(2*3);
+console.log(2**3);
+console.log(4/2);
+console.log(4%2);
+
+console.log("2"+2);//22
+console.log(2+"2");//22
+console.log("1"+2+3);//123
+console.log(1+2+"3");//33
+
+console.log(+true);
+console.log(+"");
+
+let number1,number2,number3;
+number1=number2=number3=2+2; // not recomanded for  this type 
+
+let gameCounter=100;
+let assign=gameCounter++;//post incerement
+let assigns=++gameCounter;//pre incerement
+console.log(gameCounter);//101
+console.log(assign);//100
+console.log(gameCounter);//102
+console.log(assigns);//102
+
+
